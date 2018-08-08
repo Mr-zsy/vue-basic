@@ -9,9 +9,12 @@
     <body>
         <div id="vue-app">
             <h1>Data Binding</h1>
-            <p><a v-bind:href="website">The Net Ninja Website</a></p>
+            <!-- <p><a v-bind:href="website">The Net Ninja Website</a></p> -->
+            <p><a :href="website">链接</a></p>
             <p v-html="websiteTag"></p>
+            <span>{{name}}{{job}}</span>
             <p><input type="text" v-bind:value="name" /></p>
+            <p><input type="text" v-model:value="job" /></p>
         </div>
     </body>
 

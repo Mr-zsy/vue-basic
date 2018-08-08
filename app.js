@@ -3,7 +3,7 @@ new Vue({
     data: {
         name: 'Shaun',
         job: 'Ninja',
-        website: 'http://www.thenetninja.co.uk',
+        website: 'https://www.baidu.com/',
         websiteTag: '<a href="http://www.thenetninja.co.uk">The Net Ninja Website</a>'
     },
     methods: {
